@@ -1,20 +1,22 @@
-## Introduction 
-## Part II
-## Part III
-## Markdown
+# Index
+[Introduction](#introduction)
+[Part II - Introduction](#partII)
+[Part III - Introduction](#partIII)
 
-### Markdown
-- Bulleted
-- List
+## <a name="introduction">Introduction</a>
+### Challenges and why this guide will help
+Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
+Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder  
 
-1. Numbered
-2. List
+**bold textPlaceholder** and *bold textPlaceholder text* and ...... visist https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax for my markdown information. 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-```markdown
-Syntax highlighted code block
 
-**Bold** and _Italic_ and `Code` text
+### How *** can bring value ... 
 
-[Link](url) and ![Image](src)
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## <a name="partII">Part II</a>
+### Study and implementation
+### Lens
+### CDM
+  
+## <a name="partIII">Part III</a>
