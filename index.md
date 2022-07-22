@@ -1,14 +1,15 @@
 # Index
 - [Introduction](#introduction)
-- - Challenges and why this guide will help
-- - How *** can bring value ...
+  - Challenges and why this guide will help
+  - How *** can bring value ...
 - [Part II - Introduction](#partII)
-- - Study and implementation
-- - Lens
-- - CDM
+  - Study and implementation
+  - Lens
+  - CDM
 - [Part III - Introduction](#partIII)
-- - One
-- - Two
+  - Registries
+  - Quality Governance and ethics
+  - Infrastructure
 - [Acknowledgement ](#ack)
 
 ## <a name="introduction">Introduction</a>
@@ -28,7 +29,8 @@ Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder tex
 ### CDM
   
 ## <a name="partIII">Part III</a>
-### One
-### Two
+### Registries
+### Quality Governance and ethics
+### Infrastructure
 
 ## <a name="ack">Acknowledgement</a>
