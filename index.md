@@ -1,7 +1,15 @@
 # Index
-[Introduction](#introduction)
-[Part II - Introduction](#partII)
-[Part III - Introduction](#partIII)
+- [Introduction](#introduction)
+- - Challenges and why this guide will help
+- - How *** can bring value ...
+- [Part II - Introduction](#partII)
+- - Study and implementation
+- - Lens
+- - CDM
+- [Part III - Introduction](#partIII)
+- - One
+- - Two
+- [Acknowledgement ](#ack)
 
 ## <a name="introduction">Introduction</a>
 ### Challenges and why this guide will help
@@ -20,3 +28,7 @@ Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder tex
 ### CDM
   
 ## <a name="partIII">Part III</a>
+### One
+### Two
+
+## <a name="ack">Acknowledgement</a>
