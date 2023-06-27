@@ -1,4 +1,14 @@
 # Introduction
+- Challenges for Clinical data and why this guide will help
+  - Who this guide is designed for
+  - Context of this guide: Clinical Data Challenges and Opportunities
+  - Purpose of this guide: From Awareness to Making Pragmatic Choices
+  - Scope of this guide
+  - Clinical study data can be big!
+  - A multiplicity of clinical data types
+- How the principles FAIR can bring value to Clinical data 
+  - Realising value for clinical trial data
+  - Realising value from Real World Data
 
 
 # Index
