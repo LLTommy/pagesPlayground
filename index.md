@@ -1,4 +1,15 @@
 # Index
+
+[Contributors](https://lltommy.github.io/pagesPlayground/contributors)
+
+[Introduction](https://lltommy.github.io/pagesPlayground/introduction)
+
+[Metadata](https://lltommy.github.io/pagesPlayground/metadata)
+
+[Application](https://lltommy.github.io/pagesPlayground/application)
+
+
+# Index
 - [Introduction](#introduction)
   - Challenges and why this guide will help
   - How *** can bring value ...
