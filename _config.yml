@@ -2,3 +2,7 @@
 remote_theme: sighingnow/jekyll-gitbook
 title: FAIR4Clin guide 
 description: [Dummy site for the FAIR4Clin exports]
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
