@@ -1,8 +1,7 @@
 theme: jekyll-theme-slate
 #remote_theme: sighingnow/jekyll-gitbook
 title: FAIR4Clin guide 
-description: [FAIR for Clinical trial and healthare data]  
-]
+description: [FAIR for Clinical trial and healthare data]
 toc:
     enabled: true
     h_min: 1
