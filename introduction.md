@@ -1,13 +1,16 @@
-- [Introduction](#introduction)
+# Introduction
+- [Challenges for Clinical data and why this guide will help](#challenges-for-clinical-data-and-why-this-guide-will-help)
  - [Who this guide is designed for](#who-this-guide-is-designed-for)
  - [Context of this guide: Clinical Data Challenges and Opportunities](#context-of-this-guide-clinical-data-challenges-and-opportunities)
  - [Purpose of this guide: From Awareness to Making Pragmatic Choices](#purpose-of-this-guide-from-awareness-to-making-pragmatic-choices)
  - [Scope of this guide](#scope-of-this-guide)
  - [Clinical study data can be big!](#clinical-study-data-can-be-big)
  - [A multiplicity of clinical data types](#a-multiplicity-of-clinical-data-types)
+- How the principles FAIR can bring value to Clinical data 
+  - Realising value for clinical trial data
+  - Realising value from Real World Data
 
-## [Introduction](https://lltommy.github.io/pagesPlayground/introduction)
-
+## Challenges for Clinical data and why this guide will help
 ### Who this guide is designed for
 This guide primarily focuses on data practitioners in the clinical field such as clinical data managers or analysts. The secondary audience are data practitioners in (a) the research domain interested in the clinical and healthcare domain, such as research and registry data curators, terminology managers or bioinformaticians or (b) the post authorization domain, i.e. medical affairs, market access with the interest to compare clinical results with real-world outcomes. 
 
@@ -82,6 +85,29 @@ The Fast Healthcare Interoperability Resources (FHIR, pronounced "fire") is a gl
 
 #### Other clinical data standards
 There are many other clinical standards for observation-based clinical data besides the three standards mentioned above as these are the most common ones. Examples for other standards include openEHR and i2b2/tranSMART. One can find other relevant standards at FAIRsharing, but please note as different studies could be reported in different formats, it is important to handle this diversity by creating connectors between standards and integration methodologies.
+
+
+## How the principles FAIR can bring value to Clinical data 
+### Realising value for clinical trial data
+### Realising value from Real World Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
