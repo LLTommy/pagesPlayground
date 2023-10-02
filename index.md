@@ -2,7 +2,7 @@ Welcome to the FAIR for Clinical trial and healthare data (FAIR4Clin).
 
 
 
-## Part I [Introduction](https://lltommy.github.io/pagesPlayground/introduction)
+## Part I - [Introduction](https://lltommy.github.io/pagesPlayground/introduction)
 - Challenges for Clinical data and why this guide will help
   - Who this guide is designed for
   - Context of this guide: Clinical Data Challenges and Opportunities
@@ -14,7 +14,7 @@ Welcome to the FAIR for Clinical trial and healthare data (FAIR4Clin).
   - Realising value for clinical trial data
   - Realising value from Real World Data
 
-## Part II [Metadata](https://lltommy.github.io/pagesPlayground/metadata)
+## Part II - [Metadata](https://lltommy.github.io/pagesPlayground/metadata)
 - Clinical study design and FAIR implementation
 - Clinical study data process through the FAIR lens
   - Planning and preparation of the study
