@@ -33,15 +33,15 @@ Welcome to the FAIR for Clinical trial and healthare data (FAIR4Clin).
   - Semantic integration with Semantic Web standards
 
 ## Part III - [Application](https://lltommy.github.io/pagesPlayground/application)
-- Clinical Trial Registries
+- **Clinical Trial Registries**
   - Background
   - FAIR assessment of clinical trial registries
   - Clinical Real World Data
   - Other registries and efforts
-- Quality and Governance of Clinical data
+- **Quality and Governance of Clinical data**
   - Quality of clinical data and metadata
   - Clinical data governance at the study level
-- Infrastructure, training and culture for clinical FAIR data
+- **Infrastructure, training and culture for clinical FAIR data**
   - Infrastructure
   - Education and training
   - Data-centric culture and the FAIR mindset
