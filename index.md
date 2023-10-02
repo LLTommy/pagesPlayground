@@ -3,6 +3,9 @@ Welcome to the FAIR for Clinical trial and healthare data (FAIR4Clin).
 
 
 # Index
+[Introduction](#Introduction)
+[Who this guide is designed for](#Who-this-guide-is-designed-for)
+[Context of this guide: Clinical Data Challenges and Opportunities](#Context-of-this-guide:-Clinical-Data-Challenges-and-Opportunities)
 
 ## [Introduction](https://lltommy.github.io/pagesPlayground/introduction)
 
