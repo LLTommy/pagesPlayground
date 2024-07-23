@@ -8,9 +8,9 @@ At any given time, different organisations are at different stages of their FAIR
 - [The FAIR Maturity Matrix](https://lltommy.github.io/pagesPlayground/FAIRMaturityMatrix)
   - [FAIR Maturity Matrix: Dimensions (rows)](https://lltommy.github.io/pagesPlayground/maturityLevels)
   - [FAIR Maturity Matrix: maturity levels (columns)](https://lltommy.github.io/pagesPlayground/dimensions)
-- FAIR Maturity Levels
-  - [Level 0 “Life is unFAIR”]()
-  - [Level 1 "Started the FAIR journey"]()
+- [FAIR Maturity Levels]()
+  - [Level 0 “Life is unFAIR”](https://lltommy.github.io/pagesPlayground/level0)
+  - [Level 1 "Started the FAIR journey"](https://lltommy.github.io/pagesPlayground/level1)
   - [Level 2 "Getting FAIR"]()
   - [Level 3 "Pretty FAIR"]()
   - [Level 4 "Really FAIR"]()
