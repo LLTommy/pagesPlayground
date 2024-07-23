@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 #remote_theme: sighingnow/jekyll-gitbook
-title: FAIR4Clin guide 
-description: [FAIR for Clinical trial and healthare data]
+title: FAIR Maturity Matrix
+description: [A way to asses FAIRness]
 toc:
     enabled: true
     h_min: 1
