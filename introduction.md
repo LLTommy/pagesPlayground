@@ -1,163 +1,88 @@
-# Introduction
-- [Challenges for Clinical data and why this guide will help](#challenges-for-clinical-data-and-why-this-guide-will-help)
- - [Who this guide is designed for](#who-this-guide-is-designed-for)
- - [Context of this guide: Clinical Data Challenges and Opportunities](#context-of-this-guide-clinical-data-challenges-and-opportunities)
- - [Purpose of this guide: From Awareness to Making Pragmatic Choices](#purpose-of-this-guide-from-awareness-to-making-pragmatic-choices)
- - [Scope of this guide](#scope-of-this-guide)
- - [Clinical study data can be big!](#clinical-study-data-can-be-big)
- - [A multiplicity of clinical data types](#a-multiplicity-of-clinical-data-types)
-- How the principles FAIR can bring value to Clinical data 
-  - Realising value for clinical trial data
-  - Realising value from Real World Data
+# Introduction to the FAIR organisational maturity model
 
-## Challenges for Clinical data and why this guide will help
-### Who this guide is designed for
-This guide primarily focuses on data practitioners in the clinical field such as clinical data managers or analysts. The secondary audience are data practitioners in (a) the research domain interested in the clinical and healthcare domain, such as research and registry data curators, terminology managers or bioinformaticians or (b) the post authorization domain, i.e. medical affairs, market access with the interest to compare clinical results with real-world outcomes. 
+*   [Why a FAIR organisational maturity model? Problem statement](#why-a-fair-organisational-maturity-model-problem-statement)
+*   [FAIR: What do we mean with Findable, Accessible, Interoperable and Reusable ?](#fair-what-do-we-mean-with-findable-accessible-interoperable-and-reusable)
+*   [Who worked on this model? FAIR implementation project, Working group Best Practices](#who-worked-on-this-model-fair-implementation-project-working-group-best-practices)
+*   [Guiding Questions for the creation of the FAIR maturity model](#guiding-questions-for-the-creation-of-the-fair-maturity-model)
+*   [Who is the FAIR maturity model for?](#who-is-the-fair-maturity-model-for)
+*   [Intended use of the FAIR maturity model](#intended-use-of-the-fair-maturity-model)
+*   [Building a FAIR maturity model - guidelines](#building-a-fair-maturity-model-guidelines)
+*   [https://pistoiaalliance.atlassian.net/wiki/x/BACfy](#httpspistoiaallianceatlassiannetwikixbacfy)
 
-Since clinical trial and health care data is primarily determined by regulatory requirements or healthcare processes respectively, this guide is of interest foremployees in pharmaceutical companies, healthcare organisations such as hospitals or medical centres and clinical regulators such as the FDA and EMEA.
+## **Why a FAIR organisational maturity model?  Problem statement**
 
-### Context of this guide: Clinical Data Challenges and Opportunities
-We are faced with the tremendous challenge of realising the full value of clinical and healthcare data and associated metadata. This challenge is caused by the complexity and diversity of clinical data types and clinical standards, combined with the sheer volume of clinical data (see section Clinical study data can be big!) and regulatory requirements. Additionally, this data is often locked away in proprietary containers which limit or prevent access and reuse. 
+Organizations can be at very different stages in implementing FAIR data principles at a given time. This variance presents challenges, among others, for their leadership to assess, qualify, measure and manage progress towards FAIR implementation. Benchmarking across organizations or even within one department can be very hard. Organizations spend significant time clarifying situations, defining possible actions for desired outcomes, and road mapping. This further complicates the identification of stakeholders, resources needed, as well as internal and external partners required to implement FAIR data principles to produce desired outcomes.
 
-Clinical data re-use beyond the primary intent of collection is challenging also for regulatory implementation which protects patient data and limits what can currently be done, and how, with clinical data. On the one hand patient’s privacy must be protected but on the other hand also their wish to share some of their data to enable new and better therapies should be respected. An additional challenge to be met is to protect but also to promote public health through data. 
+While there are multiple FAIR data maturity models and metrics, there is no simple, agreed-upon, sector-wide maturity assessment model for implementing the FAIR data principle at the organizational level in the life science sector.
 
-Drug repurposing efforts in the crisis of the COVID-19 pandemic (e.g. Vodan) illustrate the urgent needs and persisting challenges of reusing clinical trials and healthcare data to generate insights. Being able to search, retrieve and integrate data from different clinical trials and to link it to Real World Evidence (RWE) is critical to success. Furthermore, interoperability is crucial when clinical study data needs to be integrated and connected across different clinical studies. 
+## **FAIR: What do we mean with Findable, Accessible, Interoperable and Reusable ?**
 
-Time is of the essence to bring valuable therapies to market as soon as possible to address unmet needs for patients. Innovative pharmaceutical companies also have a commercial interest to shorten the development times as much as possible. The immense cost and vital importance of clinical data are a motivation, if not an obligation to make this data FAIR, which means: Findable, Accessible, Interoperable and Reusable by humans as well as machines.
+We refer to the [FAIR data principles](https://www.go-fair.org/fair-principles/). 
 
-### Purpose of this guide: From Awareness to Making Pragmatic Choices 
-The importance of the FAIR principles [Wilkinson et al. 2016] is well recognised amongst researchers in academia and industry, but its implementation is not yet mature in the clinical domain  [Kubben et al.  2019]. This guide aims to raise awareness of the value of FAIR clinical data. It is designed to facilitate pragmatic decision making based on FAIR clinical data and metadata management, which is addressed in Section 2 (Metadata). Topics such as data governance and additional facets of data management such as quality and training are presented in Section 3 (Application). The best practices in data management (“bottom-up”) and strategic data governance (“top-down”) are foundational for achieving a deeply integrated data-centric culture to serve communities of users and stakeholders in the life science industry.
+"**Findable**" refers to the ease and methods with which data can be located and identified by both humans and machines. Findability involves ensuring that data sets are described with rich metadata, including information about their content, context, and conditions of use. This metadata should be standardized and easily accessible, allowing users to search for and discover relevant datasets using various search tools and platforms. Additionally, each dataset should be assigned a unique and persistent identifier, such as a Digital Object Identifier (DOI), to enable unambiguous identification and citation. By making data findable, humans and machines can efficiently locate and access the information they need, promoting collaboration, reproducibility, and the reuse of data across different disciplines and research projects.
 
-### Scope of this guide
-This first version of the guide focuses on overcoming the challenges found when implementing the FAIR principles related to data and its metadata for clinical trial and real world evidence. This guide is currently focussed on the clinical study level, rather than patient level, and it is limited to human derived clinical. We define the clinical study level as 1) result summary data (NOT patient data) and 2) the associated metadata is the study description and protocol. In particular, we will present numerous opportunities for the implementation of the FAIR data guiding principles.
+"**Accessible**" refers to the ability of individuals or IT systems to obtain and retrieve data once it has been located. Access involves ensuring that data is available for use by both humans and machines, subject to appropriate controls and permissions. This includes implementing mechanisms for authentication, authorization, and data security to regulate who (or what) can access the data and under what conditions. Accessible data should be available in a standard format and through standardized and accessible protocols to facilitate seamless retrieval and use. Additionally, access encompasses providing clear and transparent information about how data can be accessed, including any usage restrictions or licensing terms. Ultimately, ensuring access to data is one of the enablers for its reuse across various domains.
 
-Clinical study studies include those generated by the different phases of double blind, controlled trials, prior to product launch. These have been designed primarily to demonstrate efficacy and safety for a new treatment being submitted to the regulatory authorities for drug approval. This guide also addresses clinical studies collected from patients for clinical care purposes and/or in observational studies, commonly referred to as Real World Data (RWD). FAIR implementation is an enabler to realise far greater value from such clinical studies, beyond their primary purpose. For instance, added value may include re-purposing of a medical treatment
+**“Interoperable**" refers to the ability of different systems, tools, and datasets to work together seamlessly. Interoperability involves structuring data in a standardized format using standardized or at least commonly accepted vocabularies, ontologies, and data models, enabling it to be integrated, exchanged, and combined with other datasets. This standardized approach allows data to be interpreted and processed consistently across various platforms and applications, regardless of their underlying technologies or environments. The exchange and integration of data from diverse sources enables more comprehensive analyses, insights, and collaborations. Interoperable data supports reproducibility, scalability, and the efficient reuse of information across different research domains and disciplines. 
 
-### Clinical study data can be big!
-Big data dimensions include Volume, Velocity, Variety, Value, Veracity and Variability [Ristevski et al. 2018]. Most relevant for this guide are the dimensions of Veracity and Variability as these clearly relate to the semantics (i.e. meaning) and, thereby, the interpretation of clinical data. FAIRifying data is mostly concerned with identifiers and capturing relevant metadata. Therefore this guide focuses more on the variability and veracity of the metadata values rather than the data itself.
+"**Reusable**" refers to the suitability of data for use in different contexts and by different stakeholders, both humans and machines. Reusability involves providing clear and comprehensive documentation, including metadata, about the data's content, structure, and usage permissions. This documentation should be easily understandable and accessible to facilitate the effective reuse of the data by others. Additionally, data should be formatted in a standardized and interoperable manner, allowing it to be integrated with other datasets and analyzed using various tools and methods. By making data reusable, researchers can efficiently leverage existing datasets for new analyses and investigations, accelerating scientific progress and innovation. Moreover, clear usage licenses and permissions should accompany the data to specify how it can be reused, ensuring legal and ethical compliance.
 
-The way clinical studies are conducted often leads to a fragmentation of datasets, because of unharmonised metadata - which promulgates issues with data variety and veracity. Consistent FAIR metadata at the study level could reduce such fragmentation. Currently the way clinical studies are represented must comply with the Clinical Data Interchange Standards Consortium (CDISC) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM), but the focus is not on FAIR metadata elements nor metadata values. For example, “tagging” of terms in a Rheumatoid Arthritis study from an appropriate ontology will enable access to synonyms, and cross-references, which results in semantically stronger metadata.
+## **Who worked on this model? FAIR implementation project, Working group Best Practices**
 
-It is important to maximise the value of clinical trial data once the study is completed rather than locking them away in data silos after the trial is completed. These silos often emerge because clinical trial study data is generated only for its primary purpose, submitting data to regulators in unFAIR formats for drug approvals rather than in a FAIR representation facilitating reusability. Furthermore, a clinical FAIR data management plan can define dataset models for data collection based on the regulatory requirements. There is a risk that these dataset models do not capture all variables which might be of interest for secondary usage.
+In February 2023, the Working group Best Practices of the [Pistoia Alliance’s FAIR implementation project](https://www.pistoiaalliance.org/projects/current-projects/fair-implementation/) started creating a cross-sector, organizational-level maturity model for FAIR implementation stages in the life sciences. This model is intended to assist decision makers in evaluating the stage of a given organization (or department) in terms of FAIR maturity, assess the options to achieve higher maturity levels and identify relevant resources that may be required to do so.
 
-Clinical raw data can consist of very large datasets at the patient level. However, at the study level, the datasets are considerably smaller, which is the scope of this guide because this is where we currently see the most value for implementation of the FAIR guiding principles (see also Figure 1). For this reason, data volume is not considered a challenge in the context of this first version of the guide.
+## **Guiding Questions for the creation of the FAIR maturity model**
 
-### A multiplicity of clinical data types
-The complexity of clinical studies leads to heterogeneity of clinical data types. Clinical data typically falls into one of two categories: operational (anything to do with setting or running the study),  or scientific (the actual observations used to test the hypothesis the study was trying to answer). 
+Here are some examples of the guiding questions used when drafting the model:
 
-This complexity can be alleviated to a certain extent by the implementation of the FAIR guiding principles, in combination with appropriate clinical standards, that are developed and supported by standards developing organisations (SDO) such as CDISC, Health Level 7 (HL7) or Observational Health Data Sciences and Informatics (OHDSI).
+*   How do we establish a common shared understanding of the stage at which a given organization finds itself along a plausible FAIR implementation journey?
+    
+*   Where and how do we initiate a FAIR implementation journey?
+    
+*   What key road mapping stages can we recognise as a sector-wide group, i.e., the observable situations, based on the group experience?
+    
+*   What hurdles and benefits can we harvest along the way?
+    
+*   Which components, tools, and resources exist that we can refer to regarding FAIR implementation maturity?
+    
+*   What could one do at a given stage to improve and move to the next one?
+    
+*   How can we simplify and streamline communication to align different stakeholders?
+    
 
-Further we could classify clinical data into intervention-based from clinical trials and observation-based from healthcare, as generated in hospitals (see also here).
+## **Who is the FAIR maturity model for?**
 
-#### Interventional data
-Intervention-based data contains clinical trial data from phases 1, 2 and 3 of clinical trials, which are conducted prior to product launch and phase 4 data collected after the product launch.
+Stakeholders and intended user groups for the FAIR Maturity Matrix include: 
 
-Example clinical data standard - CDISC
-Some of the Clinical Data Interchange Standards Consortium (CDISC) standards are mandated by the clinical regulators for intervention-based clinical data at study and patient level as well as result summaries. For example the Study Data Tabulation Model (SDTM) is one of the required standards for data submission to FDA (U.S.) and PMDA (Japan). For some priority disease areas (e.g. breast cancer), so-called therapeutic area specific extensions refine the foundational standards and supporting “SDTM implementation guidelines” and “therapeutic area user guides” are available from CDISC. Patient reported outcomes can be a challenge to standardise and thus to interpret. For the most part they can be converted to the SDTM Questionnaire domain, but not always.
+*   Leadership and Managers of life-science organizations: those responsible for resource allocation and budgeting, even if they need to gain expertise in FAIR data principles.
+    
+*   FAIR Data Experts: individuals well-versed in the intricacies of FAIR data principles who play a crucial role in guiding and executing the implementation process.
+    
+*   Implementation Partners: This encompasses Contract Research Organizations (CROs), service providers, consulting firms and academic partners, which contribute essential support and expertise.
+    
+*   Regulatory Authorities and  Funding Agencies: Involving regulatory bodies to ensure alignment with compliance standards and regulations, fostering a comprehensive and compliant FAIR data implementation.
+    
 
-#### Observational data
-Observation-based data includes studies for generation of Real World Evidence, initiated by investigators, including translational studies and self-reported patient data or patient-generated health data (PGHD), e.g. from wearable devices. Such observation-based data can bring challenges which could be alleviated through FAIR implementation. For example, observational studies do not have to comply with any (regulatory) standards - though eventually submissions will have to. FAIR can improve the data structure to make datasets more ready for analysis. As a further example, a variety of code dictionaries (e.g. ICD, SNOMED, ATC, NDC)  are often used in different healthcare systems to standardise data which can make it difficult to compare data from different data sources.
+## **Intended use of the FAIR maturity model** 
 
-Example observation-based data standard - OMOP/OHDSI
-The OHDSI (pronounced "Odyssey", is Observational Health Data Sciences and Informatics) standard supports the harmonisation of observation-based patient data collected during routine clinical practice with the purpose to perform systematic studies across disparate observational healthcare databases ( see also the OMOP record in FAIRsharing and the OHDSI vocabularies record in FAIRsharing).
+The Pistoia FAIR maturity model intends to provide an actionable tool for (self-)assessment of an organization's implementation of the FAIR data principles.
 
-#### Real World Data
-Real World Data (RWD) summarises data from countless sources like EHRs, GPs, registries and insurance claims databases etc. RWD can be intervention or observation-based. The FDA defines such RWD as “the data relating to patient health status and/or the delivery of health care routinely collected from a variety of sources” (see here for examples).
+The model is descriptive rather than prescriptive. It should enable multiple stakeholders to reach similar conclusions based on observations of a specific organization at a given time. There are different data models, and the reader can also refer to the EDMC’s [DCAM](https://edmcouncil.org/frameworks/dcam/), DAMA’s [DMBoK](https://www.dama.org/cpages/body-of-knowledge) and NIST’s [Research Data Framework (RDaF).](https://www.nist.gov/programs-projects/research-data-framework-rdaf)
 
-Examples of RWD sources include:
+The structure of this first model is a matrix. We see each matrix element in relation to its nearest neighbors for the “maturity axis” and with all the elements in the same level, or the “dimensions axis”. That should, in turn, indicate concrete directions for improvement.
 
-Routinely collected healthcare data from hospitals and primary care sites. This can be directly from the EHR systems or from insurance claims.
+Should an organization aim at the highest possible maturity level? Not necessarily. That depends on the organization's goals, business, and use cases.
 
-Often highly standardised to local and/or national coding standards. There is a slow shift to using international standards like SNOMED or ICD and many initiatives to map national to international codings (e.g. by EU IMI EHDEN).
+## **Building a FAIR maturity model - guidelines**
 
-Not collected for research purposes. Large biases might exist in the data and should be corrected for.
+The aim is to provide an actionable (self) assessment tool. The model should capture as much of the required complexity as possible without too much detail, striking a balance between the inherent complexities and details and still extracting general features to describe the maturity qualitatively but with sufficient accuracy to enable stakeholder alignment.
 
-Hard to get access as the data is very privacy sensitive.
+Descriptive rather than prescriptive, the model should enable multiple stakeholders to reach similar conclusions based on observation of a given, specific organization at a given point in time. Each organization is a complex entity in a complex ecosystem. It may require a specific action to improve if it concludes it has a case to do so given its capability, needs, means and strategic intention. 
 
-Data from wearable sensors
+The document should be authoritative and created by practitioners who have agreed on its content. It should refer to and align with existing frameworks, whether public or generated in private organizations.
 
-Medical grade devices vs Consumer grade devices
+As self-consistent and actionable as possible, the interpretation of the content should be in the context of lower and higher maturity levels and different dimensions. The structure of the first model is a matrix. We see each matrix element in relation not only to its nearest neighbors for the “maturity axis” but with all the elements in the same level, or the “dimensions axis”. That would, in turn, indicate concrete directions for improvement.
 
-Patient reported outcomes (e.g. Data from social media sources))
+As much as possible, we use commonly understood and ideally referenced terminology. We provide examples of relevant practices, cases or implementations as much as possible. Where possible, we use references to known definitions.
 
-Example RWD standard - FHIR
-The Fast Healthcare Interoperability Resources (FHIR, pronounced "fire") is a global  standard for passing healthcare data between systems. It describes data formats and elements, known as "resources", and an application programming interface (API) for exchanging Electronic Health Records (EHR). FHIR can support both interventional and observational clinical data at the study, results summary and patient levels; see also FHIR record in FAIRsharing. This is addressed further in Section 2 of the guide.
-
-#### Other clinical data standards
-There are many other clinical standards for observation-based clinical data besides the three standards mentioned above as these are the most common ones. Examples for other standards include openEHR and i2b2/tranSMART. One can find other relevant standards at FAIRsharing, but please note as different studies could be reported in different formats, it is important to handle this diversity by creating connectors between standards and integration methodologies.
-
-
-## How the principles FAIR can bring value to Clinical data 
-### Realising value for clinical trial data
-### Realising value from Real World Data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Introduction
-- Challenges for Clinical data and why this guide will help
-  - Who this guide is designed for
-  - Context of this guide: Clinical Data Challenges and Opportunities
-  - Purpose of this guide: From Awareness to Making Pragmatic Choices
-  - Scope of this guide
-  - Clinical study data can be big!
-  - A multiplicity of clinical data types
-- How the principles FAIR can bring value to Clinical data 
-  - Realising value for clinical trial data
-  - Realising value from Real World Data
-
-
-# Index
-- [Introduction](#introduction)
-  - Challenges and why this guide will help
-  - How *** can bring value ...
-- [Part II - Introduction](#partII)
-  - Study and implementation
-  - Lens
-  - CDM
-- [Part III - Introduction](#partIII)
-  - Registries
-  - Quality Governance and ethics
-  - Infrastructure
-- [Acknowledgement ](#ack)
-
-## <a name="introduction">Introduction</a>
-### Challenges and why this guide will help
-Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text
-Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder textPlaceholder text Placeholder text Placeholder textPlaceholder textPlaceholder textPlaceholder  
-
-**bold textPlaceholder** and *bold textPlaceholder text* and ...... visist https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax for my markdown information. 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-
-
-### How *** can bring value ... 
-
-## <a name="partII">Part II</a>
-### Study and implementation
-### Lens
-### CDM
-  
-## <a name="partIII">Part III</a>
-### Registries
-### Quality Governance and ethics
-### Infrastructure
-
-## <a name="ack">Acknowledgement</a>
+The intention is to provide an initial instrument to the FAIR community. It is unlikely the first version will comply with the FAIR data principles.  This model is and will likely never be perfect, but it could hopefully be “good enough” to enable better and more effective implementation of FAIR. It should be updated and improved in subsequent iterations.
